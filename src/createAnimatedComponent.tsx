@@ -57,7 +57,7 @@ function dummyListener() {
   // event is used.
 }
 
-function maybeBuild(
+export function maybeBuild(
   layoutAnimationOrBuilder:
     | ILayoutAnimationBuilder
     | LayoutAnimationFunction
